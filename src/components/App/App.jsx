@@ -84,7 +84,7 @@ export const App = () => {
       <Searchbar onSubmit={onSubmitForm} />
       {isloading && <Loader />}
       <ImageGalery photos={photos} onClickImageItem={toggleModal} />
-      {photos.length !== 0 && btnLoadMore && isloading && (
+      {photos.length !== 0 && btnLoadMore && (
         <Button onClickRender={onClickRender} />
       )}
       {selectedPhoto && (
