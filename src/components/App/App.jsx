@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Searchbar } from '../Searchbar/Searchbar';
 import { ToastContainer } from 'react-toastify';
-import { searchPhoto } from '../ImageInfo/image';
+import { searchPhoto } from '../../services/image';
 import { toast } from 'react-toastify';
 import { ImageGalery } from '../ImageGallery/ImageGallery';
 import { Button } from '../Button/Button';
